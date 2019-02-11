@@ -7,7 +7,10 @@
 - link:
     ~/.zshrc: shell/zshrc
     ~/.oh-my-zsh/themes/honukai.zsh-theme: shell/honukai.zsh-theme
+    ~/.vimrc: vim/vimrc
+    ~/.vim: vim/
+    ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions: shell/zsh-autosuggestions
 
 - shell:
-    - [source ~/.zshrc]
-    - [cp -n shell/extended_config ~/.extended_config]
+    - [source ~/.zshrc, "Sourcing zshrc for instant update."]
+    - [cp -n shell/extended_config ~/.extended_config, "Creating empty extended configuration file."]

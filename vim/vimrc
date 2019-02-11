@@ -1,0 +1,24 @@
+
+set noshowmode " wtf is this?
+set noshowcmd " wtf is this?
+"set spell
+"set textwidth=66
+"set formatoptions=tacqwn
+"
+set relativenumber
+
+" Plug Configuration and Plugins
+"
+" Usage: 
+"	:source %
+"	:PlugInstall
+"
+call plug#begin('~/.vim/plugged')
+Plug 'scrooloose/nerdtree'
+Plug 'junegunn/goyo.vim'
+Plug 'vim-airline/vim-airline'
+Plug 'airblade/vim-gitgutter'
+call plug#end()
+
+" Powerline Symbols
+let g:airline_powerline_fonts = 1

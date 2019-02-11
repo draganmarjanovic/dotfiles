@@ -6,7 +6,7 @@
 
 - link:
     ~/.zshrc: shell/zshrc
-    ~/.oh-my-zsh/themes/honukai.zsh_theme: shell/honukai.zsh-theme
+    ~/.oh-my-zsh/themes/honukai.zsh-theme: shell/honukai.zsh-theme
 
 - shell:
     - [source ~/.zshrc]

@@ -10,3 +10,4 @@
 
 - shell:
     - [source ~/.zshrc]
+    - [cp -n shell/extended_config ~/.extended_config]

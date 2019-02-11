@@ -1,0 +1,5 @@
+# extended_config
+# 
+# This file is to be used for additional, system specific configuration.
+# It is automatically sourced in the main zshrc file. 
+

@@ -5,8 +5,7 @@
 - clean: []
 
 - link:
-    ~/.dotfiles: ''
-    ~/.zshrc: zshrc
+    ~/.zshrc: shell/zshrc
 
 - shell:
     - []

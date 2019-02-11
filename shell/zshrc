@@ -1,0 +1,24 @@
+# zshrc
+#
+# Dragan Marjanovic
+
+# oh-my-zsh installation path
+export ZSH=/Users/draganmarjanovic/.oh-my-zsh
+
+# Theme / Style
+ZSH_THEME="honukai"
+COMPLETION_WAITING_DOTS="true"
+
+# Plugins
+plugins=(git)
+plugins=(zsh-autosuggestions)
+
+source $ZSH/oh-my-zsh.sh
+
+export PATH="$PATH:$HOME"
+
+# Utilities
+alias serve="python -m SimpleHTTPServer 8000"
+
+# Specific, machine based config  
+# source ~/.extended_config

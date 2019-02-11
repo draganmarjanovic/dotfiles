@@ -3,7 +3,7 @@
 # Dragan Marjanovic
 
 # oh-my-zsh installation path
-export ZSH=/Users/draganmarjanovic/.oh-my-zsh
+export ZSH=/Users/$USER/.oh-my-zsh
 
 # Theme / Style
 ZSH_THEME="honukai"
@@ -21,4 +21,4 @@ export PATH="$PATH:$HOME"
 alias serve="python -m SimpleHTTPServer 8000"
 
 # Specific, machine based config  
-# source ~/.extended_config
+source ~/.extended_config

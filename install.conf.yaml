@@ -5,12 +5,14 @@
 - clean: []
 
 - link:
+    ~/.oh-my-zsh: shell/oh-my-zsh
     ~/.zshrc: shell/zshrc
-    ~/.oh-my-zsh/themes/honukai.zsh-theme: shell/honukai.zsh-theme
-    ~/.vimrc: vim/vimrc
     ~/.vim: vim/
-    ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions: shell/zsh-autosuggestions
+    ~/.vimrc: vim/vimrc
+    /usr/local/bin/diff-so-fancy: scripts/diff-so-fancy
+    ~/.gitconfig: git/gitconfig
 
 - shell:
     - [source ~/.zshrc, "Sourcing zshrc for instant update."]
     - [cp -n shell/extended_config ~/.extended_config, "Creating empty extended configuration file."]
+    - [chmod +x /usr/local/bin/diff-so-fancy, "Making diff-so-fancy executable."]

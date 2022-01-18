@@ -4,7 +4,7 @@
 
 ```
 pip3 install dotbot
-git clone git@github.com:draganmarjanovic/dotfiles.git
+git clone https://github.com/draganmarjanovic/dotfiles.git
 mv dotfiles/ ~/.dotfiles/
 cd ~/.dotfiles/
 dotbot -c install.conf.yaml
